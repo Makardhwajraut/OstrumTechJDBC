@@ -10,9 +10,9 @@ public class CSVConsume {
     public static void main(String[] args) {
         String jdbcUrl="jdbc:mysql://localhost:3306/ems";
         String username="root";
-        String password="";
+        String password="root";
 
-        String filePath="C:\\Users\\laser\\Desktop\\data.csv";
+        String filePath="F:\\JAR FILE\\data.csv";
 
         int batchSize=20;
 
